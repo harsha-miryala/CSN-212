@@ -19,3 +19,5 @@ If there is a negative weight cycle, then shortest distances are not calculated,
 The idea of step 3 is, step 2 guarantees shortest distances if graph doesn’t contain negative weight cycle.    If we iterate through all edges one more time and get a shorter path for any vertex, then there is a negative weight cycle
 
 For some test-cases , the execution time is compared.
+
+bellman-ford.jpg shows the graph of the vertices*edges vs running time 
